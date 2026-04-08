@@ -38,6 +38,9 @@ build/
 ### Mac OS ###
 .DS_Store
 
+target
+*.iml
+
 Lab1-1190200208/.idea
 Lab1-1190200208/out
 Lab1-1190200208/*.iml
