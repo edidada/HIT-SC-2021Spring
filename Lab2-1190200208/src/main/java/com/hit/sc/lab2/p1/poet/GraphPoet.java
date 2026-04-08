@@ -1,7 +1,7 @@
 /* Copyright (c) 2015-2016 MIT 6.005 course staff, all rights reserved.
  * Redistribution of original or derived work requires permission of course staff.
  */
-package P1.poet;
+package com.hit.sc.lab2.p1.poet;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -9,7 +9,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
 
-import P1.graph.Graph;
+import com.hit.sc.lab2.p1.graph.Graph;
 
 /**
  * A graph-based poetry generator.

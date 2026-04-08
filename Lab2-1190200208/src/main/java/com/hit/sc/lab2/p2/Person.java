@@ -1,4 +1,4 @@
-package P2;
+package com.hit.sc.lab2.p2;
 
 import java.util.Objects;
 

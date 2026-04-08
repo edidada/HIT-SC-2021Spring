@@ -1,6 +1,7 @@
-package P2;
+package com.hit.sc.lab2.p2;
 
-import P1.graph.ConcreteEdgesGraph;
+
+import com.hit.sc.lab2.p1.graph.ConcreteEdgesGraph;
 
 import java.util.*;
 
