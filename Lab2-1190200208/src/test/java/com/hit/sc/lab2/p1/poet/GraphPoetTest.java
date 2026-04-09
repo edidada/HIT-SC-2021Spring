@@ -40,7 +40,7 @@ public class GraphPoetTest {
      */
     @Test
     public void testPoem1() throws IOException {
-        String filePath = "src/P1/poet/mugar-omni-theater.txt";
+        String filePath = "src/main/resources/poet/mugar-omni-theater.txt";
         String input = "Test the system.";
         String AccOutput = "Test of the system.";
         GraphPoet graphPoet = new GraphPoet(new File(filePath));
@@ -49,7 +49,7 @@ public class GraphPoetTest {
 
     @Test
     public void testPoem2() throws IOException {
-        String filePath = "src/P1/poet/mugar-omni-theater.txt";
+        String filePath = "src/main/resources/poet/mugar-omni-theater.txt";
         String input = "Test of Mugar Omni Theater system.";
         String AccOutput = "Test of the Mugar Omni Theater sound system.";
         GraphPoet graphPoet = new GraphPoet(new File(filePath));
@@ -58,7 +58,7 @@ public class GraphPoetTest {
 
     @Test
     public void testPoem3() throws IOException {
-        String filePath = "src/P1/poet/Where no man has gone before.txt";
+        String filePath = "src/main/resources/poet/Where no man has gone before.txt";
         String input = "Seek to explore new and exciting synergies!";
         String AccOutput = "Seek to explore strange new life and exciting synergies!";
         GraphPoet graphPoet = new GraphPoet(new File(filePath));
@@ -67,7 +67,7 @@ public class GraphPoetTest {
 
     @Test
     public void testPoem4() throws IOException {
-        String filePath = "src/P1/poet/Sonnet I to X.txt";
+        String filePath = "src/main/resources/poet/Sonnet I to X.txt";
         String input = "Pointing to each his thunder, rain and wind.";
         String AccOutput = "Pointing to each in his thunder, rain and wind.";
         GraphPoet graphPoet = new GraphPoet(new File(filePath));
@@ -76,7 +76,7 @@ public class GraphPoetTest {
 
     @Test
     public void testPoem5() throws IOException {
-        String filePath = "src/P1/poet/hello goodbye.txt";
+        String filePath = "src/main/resources/poet/hello goodbye.txt";
         String input = "hello, goodbye!!!!!";
         String AccOutput = "hello, hello goodbye!!!!!";
         GraphPoet graphPoet = new GraphPoet(new File(filePath));
@@ -89,7 +89,7 @@ public class GraphPoetTest {
      */
     @Test
     public void testToString() throws IOException {
-        String filePath = "src/P1/poet/mugar-omni-theater.txt";
+        String filePath = "src/main/resources/poet/mugar-omni-theater.txt";
         GraphPoet graphPoet = new GraphPoet(new File(filePath));
         String AccOutput = "this->is (1)\n" +
                 "is->a (1)\n" +
