@@ -29,7 +29,25 @@ jobs:
         cache: maven
 
     - name: Build with Maven Lab1-1190200208
-      run: cd Lab1-1190200208 && mvn -B package --file pom.xml
+      run: |
+        cd Lab1-1190200208
+        mvn -B package --file pom.xml
+        mvn test
 
     - name: Build with Maven Lab2-1190200208
-      run: cd Lab2-1190200208 && mvn -B package --file pom.xml
+      run: |
+        cd Lab2-1190200208
+        mvn -B package --file pom.xml
+        mvn test
+
+    - name: Build with Maven Lab3-1190200208
+      run: |
+        cd Lab3-1190200208
+        mvn -B package --file pom.xml
+        mvn test
+
+    - name: Build with Maven Lab3-1190200208-change
+      run: |
+        cd Lab3-1190200208-change/change
+        mvn -B package --file pom.xml
+        mvn test
