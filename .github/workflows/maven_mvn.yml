@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Java CI with Maven
+name: Java CI with Maven mvn
 
 on:
   push:
@@ -44,10 +44,16 @@ jobs:
       run: |
         cd Lab3-1190200208
         mvn -B package --file pom.xml
-        mvn test
+        mvn clean test
 
     - name: Build with Maven Lab3-1190200208-change
       run: |
         cd Lab3-1190200208-change/change
         mvn -B package --file pom.xml
-        mvn test
+        mvn clean test
+
+    - name: Build with Maven Lab3-1190200208-origin
+      run: |
+        cd Lab3-1190200208-origin
+        mvn -B package --file pom.xml
+        mvn clean test
