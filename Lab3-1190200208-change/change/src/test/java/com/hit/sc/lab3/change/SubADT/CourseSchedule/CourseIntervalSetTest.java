@@ -1,4 +1,4 @@
-package com.hit.sc.lab3.change.SubADT.CourseSchedule;
+package com.hit.sc.lab3.change.subadt.courseschedule;
 
 import org.junit.Test;
 
