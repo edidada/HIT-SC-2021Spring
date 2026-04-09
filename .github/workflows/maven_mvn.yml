@@ -32,7 +32,7 @@ jobs:
       run: |
         cd Lab1-1190200208
         mvn -B package --file pom.xml
-        mvn test
+        mvn clean test
 
     - name: Build with Maven Lab2-1190200208
       run: |
